@@ -1,9 +1,51 @@
 body {
     font-family: 'Halant', serif;
-    margin: 0 auto;
     background-color: rgb(235, 229, 229);
     font-size: 1.5em;
+}
+
+nav ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightsteelblue;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 14px 18px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.nav-box {
+    height: 57px;
+}
+
+.container {
+    margin: 0 auto; 
     width: 50%;
+}
+
+.row {
+    border-radius: 25px;
+    padding: 5px;
+    margin: 20px;
+    border: 2px solid white;
 }
 
 #header {
@@ -16,10 +58,5 @@ body {
     background-color: honeydew;
 }
 
-.row {
-    border-radius: 25px;
-    padding: 5px;
-    margin: 20px;
-    border: 2px solid white;
-}
+
 
