@@ -1,0 +1,25 @@
+body {
+    font-family: 'Halant', serif;
+    margin: 0 auto;
+    background-color: rgb(235, 229, 229);
+    font-size: 1.5em;
+    width: 50%;
+}
+
+#header {
+    background-color: deepskyblue;
+    text-align: center;
+    border: 1px white;
+}
+
+#poses {
+    background-color: honeydew;
+}
+
+.row {
+    border-radius: 25px;
+    padding: 5px;
+    margin: 20px;
+    border: 2px solid white;
+}
+
