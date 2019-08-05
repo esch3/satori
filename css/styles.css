@@ -1,12 +1,14 @@
 body {
     font-family: 'Halant', serif;
     background-color: rgb(235, 229, 229);
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
+/* css for navbar */
 nav ul {
     position: fixed;
     top: 0;
+    margin-left: 0;
     width: 100%;
     list-style-type: none;
     margin: 0;
@@ -24,7 +26,7 @@ nav ul li a {
     text-align: center;
     color: black;
     text-decoration: none;
-    padding: 14px 18px;
+    padding: 4px 8px;
 }
 
 nav ul li a:hover {
@@ -33,12 +35,17 @@ nav ul li a:hover {
 }
 
 .nav-box {
+    margin-left: -8px;
     height: 57px;
 }
+/* end of css for navbar */
 
+/* content */
 .container {
     margin: 0 auto; 
-    width: 50%;
+    width: 75%;
+    padding: 10px;
+    text-align: center;
 }
 
 .row {
@@ -50,7 +57,7 @@ nav ul li a:hover {
 
 #header {
     background-color: deepskyblue;
-    text-align: center;
+    display: inline-block;
     border: 1px white;
 }
 
@@ -58,5 +65,21 @@ nav ul li a:hover {
     background-color: honeydew;
 }
 
+#zebra {
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+}
 
+#zen-quote {
+    font-family: 'Tinos', serif;
+    font-style: italic;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50%;
+    font-size: .8em;
+    text-align: right;
+}
 
