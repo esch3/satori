@@ -40,11 +40,27 @@ nav ul li a:hover {
 }
 /* end of css for navbar */
 
+/* footer containing links to e-mail and geolocation of author */
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50%;
+    font-size: .8em;
+    text-align: right;
+}
+
+@media screen and (min-width: 600px) {
+    /* evaluates to True when viewport is larger than 600px wide */
+    footer {
+        bottom: 0;
+    }
+}
+/* end of footer */
+
 /* content */
 .container {
     margin: 0 auto; 
     width: 75%;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -55,31 +71,34 @@ nav ul li a:hover {
     border: 2px solid white;
 }
 
-#header {
-    background-color: deepskyblue;
+header {
     display: inline-block;
-    border: 1px white;
 }
 
-#poses {
-    background-color: honeydew;
-}
-
+/* content for index.html */
 #zebra {
     margin-top: 20px;
     height: 50%;
     width: 50%;
 }
 
-#zen-quote {
-    font-family: 'Tinos', serif;
-    font-style: italic;
+@media screen and (max-width: 600px) {
+    /* evaluates to True when viewport is less than 600px */
+    #zebra {
+        height: 100%;
+        width: 100%;
+    }
 }
 
-footer {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50%;
-    font-size: .8em;
-    text-align: right;
+#zen-quote {
+    font: bold .9em 'Tinos', serif;
 }
+/* end of content for index.html */
+
+/* content for yoga.html */
+#poses {
+    background-color: honeydew;
+}
+
+
 
