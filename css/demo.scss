@@ -12,21 +12,11 @@ $footer-background-color: transparent;
 
 html, body {
     height: 100%;
-    position: relative;
     font-size: 1.2em;
     font-family: $primary-font;
     background-color: $primary-color; }
 
-main {
-    min-height: 100vw;
-    overflow: hidden;
-    display: block;
-    position: relative;
-    padding-bottom: 100px; }
-
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     font-family: $footer-font-family;
     background-color: $footer-background-color; }
