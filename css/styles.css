@@ -44,12 +44,6 @@ footer {
     text-align: right;
 }
 
-@media screen and (min-width: 600px) {
-    /* evaluates to True when viewport is larger than 600px wide --
-    keeps the footer on the bottom of page */
-    
-}
-
 /* content */
 .container {
     margin: 0 auto; 
