@@ -4,6 +4,10 @@ body {
     font-size: 1.2em;
 }
 
+header {
+    display: inline-block;
+}
+
 /* css for navbar */
 nav ul {
     position: fixed;
@@ -38,23 +42,22 @@ nav ul li a:hover {
     margin-left: -8px;
     height: 57px;
 }
-/* end of css for navbar */
 
 /* footer containing links to e-mail and geolocation of author */
 footer {
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50%;
+    padding-top: 100px;
     font-size: .8em;
     text-align: right;
 }
 
 @media screen and (min-width: 600px) {
-    /* evaluates to True when viewport is larger than 600px wide */
+    /* evaluates to True when viewport is larger than 600px wide --
+    keeps the footer on the bottom of page */
     footer {
         bottom: 0;
     }
 }
-/* end of footer */
 
 /* content */
 .container {
@@ -69,10 +72,6 @@ footer {
     padding: 5px;
     margin: 20px;
     border: 2px solid white;
-}
-
-header {
-    display: inline-block;
 }
 
 /* content for index.html */
@@ -93,7 +92,6 @@ header {
 #zen-quote {
     font: bold .9em 'Tinos', serif;
 }
-/* end of content for index.html */
 
 /* content for yoga.html */
 #poses {
