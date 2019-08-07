@@ -31,5 +31,22 @@ body {
     width: 100%;
   }
 }
+/* content for yoga.html */
+#poses {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px;
+  font-size: 1.2em;
+  background-color: #f6fcf6;
+}
+
+#instructions {
+  text-align: left;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px;
+  font-size: 1.2em;
+  background-color: #f6fcf6;
+}
 
 /*# sourceMappingURL=sass.css.map */

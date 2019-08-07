@@ -36,3 +36,20 @@ body {
     }
 }
 
+/* content for yoga.html */
+#poses {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px;
+    font-size: $primary-size;
+    background-color: rgb(246, 252, 246);
+}
+
+#instructions {
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px;
+    font-size: $primary-size;
+    background-color: rgb(246, 252, 246);
+}
