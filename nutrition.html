@@ -1,108 +1,180 @@
 <!DOCTYPE html>
 
 <html lang="en">
+    <head>
+        <title>The Beginning of the End</title>
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Halant&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Tinos&display=swap" rel="stylesheet">
+        <!--custom css-->
+        <!--
+            <link rel="stylesheet" type="text/css" href="css/styles.css">
+            -->
+        <link rel="stylesheet" type="text/css" href="css/sass.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Pointing the way to enlightenment... for free">
+        <meta name="keywords" content="Zen, Yoga, Green, Books, Philosophy, Health, Wellness">
+        <meta name="author" content="Tom Esch">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
 
-<head>
-    <title>The Beginning of the End</title>
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Halant&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Tinos&display=swap" rel="stylesheet">
-    <!--custom css-->
-    <!--
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        -->
-    <link rel="stylesheet" type="text/css" href="css/sass.css">
-    <meta charset="UTF-8">
-    <meta name="description" content="Pointing the way to enlightenment... for free">
-    <meta name="keywords" content="Zen, Yoga, Green, Books, Philosophy, Health, Wellness">
-    <meta name="author" content="Tom Esch">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-
-    </style>
-</head>
-
-<body>
-    <!--navbar for page with links to home, yoga, nutrition, and books-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">satori</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--collapsed content links-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="books.html">Books</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="yoga.html">Yoga</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="nutrition.html">Nutrition <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">satori Zendo (Member's only)</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- main content of page, include welcome message, an image and a quote-->
-    <main id="main" class="container text-center">
-    <p>This is cold coffee</p>
-    <p>This is hot coffee</p>
-    <p>This is drinking coffee</p>
-    <ol>
-        <li></li>
-        <li>Make coffee</li>
-        <li>Drink coffee</li>
-    </ol>
-    <table>
-        <tr>
-            <th>header1</th>
-            <th>header2</th>
-            <th>header3</th>
-        </tr>
-        <tr>
-            <td>data1</td>
-            <td>data2</td>
-            <td>data3</td>
-        </tr>
-        <tr>
-            <td>data4</td>
-            <td>data5</td>
-            <td>data6</td>
-        </tr>
-        <tr>
-            <td>data7</td>
-            <td>data8</td>
-            <td>data9</td>
-        </tr>
-    </table>
-    <!--footer element of page, includes an email contact and geo-location of author-->
-    <footer class="footer text-right">
-        <address class="container">
-            <span class="text-muted">Written by <a href="mailto:compuradon@gmail.com">Tom Esch</a>.<br>
-                thomaspatrickesch.com<br>
-                New York, NY USA</span>
-        </address>
-    </footer>
-</body>
-
+        </style>
+    </head>
+    <body>
+        <!--navbar for page with links to home, yoga, nutrition, and books-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">satori</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--collapsed content links-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="books.html">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="yoga.html">Yoga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="nutrition.html">Nutrition <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">satori Zendo (Member's only)</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- main content of page, include welcome message, an image and a quote-->
+        <main id="main" class="container text-left">
+            <h2 class="text-center">Proper nutrition for human body</h2>
+            <section class="row" style="padding: 20px;">
+                <table class="col-12">
+                    <tr>
+                        <th>Food</th>
+                        <th>Nutrition</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td>Kale</td>
+                        <td>Excellent</td>
+                        <td>Low</td>
+                    </tr>
+                    <tr>
+                        <td>Japanese Yam</td>
+                        <td>Excellent</td>
+                        <td>Low</td>
+                    </tr>
+                    <tr>
+                        <td>Salmon Roe</td>
+                        <td>Excellent</td>
+                        <td>High</td>
+                    </tr>
+                    <tr>
+                        <td>Swiss chard</td>
+                        <td>Excellent</td>
+                        <td>Low</td>
+                    </tr>
+                    <tr>
+                        <td>Maca root</td>
+                        <td>Excellent</td>
+                        <td>Low</td>
+                    </tr>
+                    <tr>
+                        <td>Buckwheat</td>
+                        <td>Excellent</td>
+                        <td>Low</td>
+                    </tr>
+                    <tr>
+                        <td>Broccoli sprouts</td>
+                        <td>Excellent</td>
+                        <td>Low</td>
+                    </tr>
+                    <tr>
+                        <td>Garlic</td>
+                        <td>Excellent</td>
+                        <td>Moderate</td>
+                    </tr>
+                    <tr>
+                        <td>Shitake</td>
+                        <td>Excellent</td>
+                        <td>Moderate</td>
+                    </tr>
+                    <var><tr>
+                        <td>Leeks</td>
+                        <td>Excellent</td>
+                        <td>Moderate</td>
+                    </tr>
+                    <tr>
+                        <td>Blueberries</td>
+                        <td>Excellent</td>
+                        <td>High</td>
+                    </tr>
+                    <tr>
+                        <td>Hemp</td>
+                        <td>Excellent</td>
+                        <td>High</td>
+                    </tr>
+                    <tr>
+                        <td>Mung beans</td>
+                        <td>Excellent</td>
+                        <td>Low</td>
+                    </tr>
+                    <tr>
+                        <td>Pumpkin</td>
+                        <td>Excellent</td>
+                        <td>Low</td>
+                    </tr>
+                    <tr>
+                        <td>Salmon Roe</td>
+                        <td>Excellent</td>
+                        <td>High</td>
+                    </tr>
+                    <tr>
+                        <td>Salmon Roe</td>
+                        <td>Excellent</td>
+                        <td>High</td>
+                    </tr>
+                    <tr>
+                        <td>Salmon Roe</td>
+                        <td>Excellent</td>
+                        <td>High</td>
+                    </tr>
+                    <tr>
+                        <td>Green tea</td>
+                        <td>Good</td>
+                        <td>Low</td>
+                    </tr>
+                    <tr>
+                        <td>Filtered water</td>
+                        <td>Excellent</td>
+                        <td>Low</td>
+                    </tr>
+                </table>
+            </section>
+        <!--footer element of page, includes an email contact and geo-location of author-->
+        <footer class="footer text-right">
+            <address class="container">
+                <span class="text-muted">Written by <a href="mailto:compuradon@gmail.com">Tom Esch</a>.<br>
+                    thomaspatrickesch.com<br>
+                    New York, NY USA</span>
+            </address>
+        </footer>
+    </body>
 </html>
