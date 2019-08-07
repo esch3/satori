@@ -1,74 +1,120 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<head>
-    <title>The Beginning of the End</title>
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Halant&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Tinos&display=swap" rel="stylesheet">
-    <!--custom css-->
-    <!--
+    <head>
+        <title>The Beginning of the End</title>
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Halant&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Tinos&display=swap" rel="stylesheet">
+        <!--custom css-->
+        <!--
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         -->
-    <link rel="stylesheet" type="text/css" href="css/sass.css">
-    <meta charset="UTF-8">
-    <meta name="description" content="Pointing the way to enlightenment... for free">
-    <meta name="keywords" content="Zen, Yoga, Green, Books, Philosophy, Health, Wellness">
-    <meta name="author" content="Tom Esch">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+        <link rel="stylesheet" type="text/css" href="css/sass.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Pointing the way to enlightenment... for free">
+        <meta name="keywords" content="Zen, Yoga, Green, Books, Philosophy, Health, Wellness">
+        <meta name="author" content="Tom Esch">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
 
-    </style>
-</head>
-
-<body>
-    <!--navbar for page with links to home, yoga, nutrition, and books-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">satori</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--collapsed content links-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+        </style>
+    </head>
+    <body>
+        <!--navbar for page with links to home, yoga, nutrition, and books-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">satori</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--collapsed content links-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="books.html">Books <span class="sr-only">(current)</span></a>
                     </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="books.html">Books <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="yoga.html">Yoga</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nutrition.html">Nutrition</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Satori</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- main content of page, include welcome message, an image and a quote-->
-    <main id="main" class="container text-center">
-            <audio controls>
-                <source src="audio/aaa.wav">
-                    Your browser sucks
-            </audio>
+                    <li class="nav-item">
+                        <a class="nav-link" href="yoga.html">Yoga</a>
+                    </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="nutrition.html">Nutrition</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Satori</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- main content of page, include welcome message, an image and a quote-->
+        <main id="main" class="container text-center">
+            <div class="row" >
+                <div class="col">
+                    <div class="card"style="width: 28rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">The Way of Zen</h5>
+                            <p class="card-text">Written by Alan Watts</p>
+                            <a href="https://terebess.hu/english/AlanWatts-The%20Way%20of%20Zen.pdf" class="btn btn-primary">Read book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mr-auto">
+                    <div class="card" style="width: 28rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Introduction to Zen</h5>
+                            <p class="card-text">Written by D.T. Suzuki</p>
+                            <a href="https://terebess.hu/zen/mesterek/Suzuki-DT-Introduction-Zen-Buddhism.pdf" class="btn btn-primary">Read
+                                book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mr-auto">
+                    <div class="card" style="width: 28rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Abandonment to Divine Providence</h5>
+                            <p class="card-text">Written by Jean-Pierre de Caussade</p>
+                            <a href="http://www.ccel.org/d/decaussade/abandonment/cache/abandonment.pdf"
+                                class="btn btn-primary">Read
+                                book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mr-auto">
+                    <div class="card" style="width: 28rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Bhavagad Gita</h5>
+                            <p class="card-text">Translated by Lars Martin Fossee</p>
+                            <a href="http://library.umac.mo/ebooks/b17771201.pdf" class="btn btn-primary">Read
+                                book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mr-auto">
+                    <div class="card" style="width: 28rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Theologica Germanica</h5>
+                            <p class="card-text">Anonymous</p>
+                            <a href="http://www.ntslibrary.com/PDF%20Books/Theologia%20Germanica.pdf" class="btn btn-primary">Read
+                                book</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
         </main>
         <!--footer element of page, includes an email contact and geo-location of author-->
         <footer class="footer text-right">
