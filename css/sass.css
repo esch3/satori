@@ -36,9 +36,8 @@ body {
   border-radius: 10px;
   padding: 10px;
   margin: 25px;
-  font-weight: bold;
   font-size: 1.2em;
-  background-color: #c4e0df;
+  background-color: #e9f3f2;
 }
 
 #instructions {
@@ -47,7 +46,7 @@ body {
   padding: 10px;
   margin: 25px;
   font-size: 1.2em;
-  background-color: #c4e0df;
+  background-color: #e9f3f2;
 }
 
 th, td {
