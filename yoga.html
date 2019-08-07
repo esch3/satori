@@ -1,32 +1,70 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <title>Yoga for Male Beginners</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<head>
+    <title>The Beginning of the End</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Halant&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tinos&display=swap" rel="stylesheet">
+    <!--custom css-->
+    <!--
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="css/sass.css">
-        <link href="https://fonts.googleapis.com/css?family=Halant&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Tinos&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta name="description" content="Pointing the way to enlightenment... for free">
-        <meta name="keywords" content="Zen, Yoga, Green, Books, Philosophy, Health, Wellness">
-        <meta name="author" content="Tom Esch">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-            <!-- header for page, including a nav bar for page with links to home, yoga, nutrition, and books-->
-            <header>
-                <nav class="nav-box">
-                    <ul>
-                        <li style="float: left;"><a href="index.html">Home</a></li>
-                        <li><a href="books.html">Books</a></li>
-                        <li><a href="nutrition.html">Nutrition</a></li>
-                        <li><a href="yoga.html">Yoga</a></li>
-                    </ul>
-                </nav>
-            </header>
+        -->
+    <link rel="stylesheet" type="text/css" href="css/sass.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Pointing the way to enlightenment... for free">
+    <meta name="keywords" content="Zen, Yoga, Green, Books, Philosophy, Health, Wellness">
+    <meta name="author" content="Tom Esch">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!--navbar for page with links to home, yoga, nutrition, and books-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">satori</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--collapsed content links-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="yoga.html">Yoga <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nutrition.html">Nutrition</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Satori</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- main content of page, include welcome message, an image and a quote-->
+    <main id="main" class="container text-center">
 
             <div id="poses" class="row">
                 <ol>
@@ -48,12 +86,12 @@
                 </ol>
             </div>    
             <!--footer element of page, includes an email contact and geo-location of author-->
-            <footer>
-                <address>
-                    Written by <a href="mailto:compuradon@gmail.com">Tom Esch</a>.<br>
+        <footer class="footer text-right">
+            <address class="container">
+                <span class="text-muted">Written by <a href="mailto:compuradon@gmail.com">Tom Esch</a>.<br>
                     thomaspatrickesch.com<br>
-                    New York, NY USA
-                </address>
-            </footer>
+                    New York, NY USA</span>
+            </address>
+        </footer>
     </body>
 </html>
