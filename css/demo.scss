@@ -16,16 +16,20 @@ body {
 }
 
 .footer {
-  position: relative;
-  margin-top: 80px;
-  width: 100%;
-  background-color: #f5f5f5; }
+    position: relative;
+    margin-top: 80px;
+    width: 100%;
+    background-color: #f5f5f5; }
 
 /* content for index.html */
 #zebra {
     margin-top: 20px;
     height: 50%;
     width: 50%;
+}
+
+.lead.text-center {
+    margin-top: 60px;
 }
 
 @media screen and (max-width: 600px) {
@@ -42,20 +46,50 @@ body {
     padding: 10px;
     margin: 25px;
     font-size: $primary-size;
+    font-family: $primary-font;
     background-color: rgb(233, 243, 242);
 }
 
 #instructions {
+    @extend #poses;
     text-align: left;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 25px;
-    font-size: $primary-size;
-    background-color: rgb(233, 243, 242);
+    background-color: transparent;
+}
+
+@media (min-width: 768px) { 
+    #instructions {
+        padding-left: 25%;
+    }
+}
+
+@media (min-width: 992px) { 
+    #instructions {
+        padding-left: 40%;
+    }
+}
+
+/* content for books */
+.col-12 .card {
+    margin-top: 5px;
+}
+
+/* content for nutrition */
+table {
+    th {
+        font-size: $primary-size;
+        background-color:  rgb(167, 233, 255);
+    }
+    td {
+        font-size: $primary-size;
+        background-color: rgb(237, 248, 237);
+    }
 }
 
 th, td {
     padding: 5px;
-    border: 1px dotted black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid rgb(231, 245, 231);
+    font-family: $primary-font;
 }
+
+
+

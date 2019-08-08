@@ -2,3 +2,4 @@ do not commit this file
 add media query to books for large screens
 shrink enroll button using media query on lg screen
 fix syntax, comment
+remove demo branch from github

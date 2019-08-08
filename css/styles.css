@@ -1,88 +1,84 @@
-header {
-    display: inline-block;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-/* css for navbar */
-nav ul {
-    position: fixed;
-    top: 0;
-    margin-left: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: lightsteelblue;
+body {
+  font-family: "Halant", serif;
 }
 
-nav ul li {
-    float: right;
+#main {
+  margin-top: 25px;
 }
 
-nav ul li a {
-    display: block;
-    text-align: center;
-    color: black;
-    text-decoration: none;
-    padding: 4px 8px;
-}
-
-nav ul li a:hover {
-    background-color: #555;
-    color: white;
-}
-
-.nav-box {
-    margin-left: 0px;
-    height: 57px;
-}
-
-/* footer containing links to e-mail and geolocation of author */
-footer {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .8em;
-    text-align: right;
-}
-
-@media screen and (min-width: 600px) {
-    /* evaluates to True when viewport is larger than 600px wide --
-    keeps the footer on the bottom of page */
-}
-
-/* content */
-.container {
-    margin: 0 auto; 
-    width: 75%;
-    padding: 5px;
-    text-align: center;
-}
-
-.row {
-    border-radius: 25px;
-    padding: 5px;
-    margin: 20px;
-    border: 2px solid white;
+.footer {
+  position: relative;
+  margin-top: 80px;
+  width: 100%;
+  background-color: #f5f5f5;
 }
 
 /* content for index.html */
 #zebra {
-    margin-top: 20px;
-    height: 50%;
-    width: 50%;
+  margin-top: 20px;
+  height: 50%;
+  width: 50%;
+}
+
+.lead.text-center {
+  margin-top: 60px;
 }
 
 @media screen and (max-width: 600px) {
-    /* evaluates to True when viewport is less than 600px */
-    #zebra {
-        height: 75%;
-        width: 100%;
-    }
+  /* evaluates to True when viewport is less than 600px */
+  #zebra {
+    height: 100%;
+    width: 100%;
+  }
 }
-
 /* content for yoga.html */
-#poses {
-    background-color: honeydew;
+#poses, #instructions {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px;
+  font-size: 1.2em;
+  font-family: "Halant", serif;
+  background-color: #e9f3f2;
 }
 
+#instructions {
+  text-align: left;
+  background-color: transparent;
+}
 
+@media (min-width: 768px) {
+  #instructions {
+    padding-left: 25%;
+  }
+}
+@media (min-width: 992px) {
+  #instructions {
+    padding-left: 40%;
+  }
+}
+/* content for books */
+.col-12 .card {
+  margin-top: 5px;
+}
 
+/* content for nutrition */
+table th {
+  font-size: 1.2em;
+  background-color: #a7e9ff;
+}
+table td {
+  font-size: 1.2em;
+  background-color: #edf8ed;
+}
+
+th, td {
+  padding: 5px;
+  border: 1px solid #e7f5e7;
+  font-family: "Halant", serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
