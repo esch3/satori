@@ -1,5 +1,5 @@
 ## Satori
-Information on reaching enlightenment
+Digital information on reaching enlightenment
 
 ## Motivation
 This project attempts to consolidate - while maintaining brevity - useful resources that one may use as a guide to reaching enlightenment. 
