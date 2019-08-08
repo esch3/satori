@@ -18,7 +18,7 @@ The site has a navbar that allows users to reach home page, books page, yoga pag
 
 ## Contribute
 
-You can contribute to the page or add resources by following these guidelines. A [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md) will be a big plus.
+You can contribute to the page or add resources by following these [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md). Thanks!
 
 ## Credits
 @author: Tom Esch
