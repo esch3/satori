@@ -16,6 +16,10 @@ Cool features include links to free eBooks, very succinct list of yoga poses tha
 ## How to use?
 The site has a navbar that allows users to reach home page, books page, yoga page, or nutrition page from any other page on the site. There is also an enrollment option into a [future] paid subscription section. This can be accessed via the home page "Enlighten Me" button.
 
+Below is a walkthrough of the site.
+
+[![Walkthrough](https://img.youtube.com/vi/KT8zMeq58pQ/0.jpg)](https://youtu.be/KT8zMeq58pQ) 
+
 ## Contribute
 
 You can contribute to the page or add resources by following these [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md). Thanks!
