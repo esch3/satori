@@ -11,7 +11,7 @@ Static site is up!
 This project uses HTML5 and CSS3.
  
 ## Features
-Cool features include links to free eBooks, very succinct list of yoga poses that is good for the beginner, and a table with useful information about food types, their nutritional rating, and their cost. 
+Cool features include links to free eBooks, very succinct list of yoga poses that is good for the beginner, and a table with useful information about food types, their nutritional rating, and their cost category.
 
 ## How to use?
 The site has a navbar that allows users to reach home page, books page, yoga page, or nutrition page from any other page on the site. There is also an enrollment option into a [future] paid subscription section. This can be accessed via the home page "Enlighten Me" button.
